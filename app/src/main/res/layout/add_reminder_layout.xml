@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/edtReminder"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/detail_rectangle_shape"
+        android:hint="Enter Note"
+        android:lines="5">
+
+    </EditText>
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="Add Reminder"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/detail_rectangle_shape"
+        android:layout_below="@id/edtReminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTimePicker"
+        >
+    </TextView>
+    <Button
+
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="Add Reminder"
+        android:background="@drawable/detail_rectangle_shape"
+        android:layout_below="@id/txtTimePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnaddremider"
+        android:layout_marginBottom="50dp"
+        >
+
+    </Button>
+
+
+</RelativeLayout>
